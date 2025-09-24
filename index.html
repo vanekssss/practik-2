@@ -9,114 +9,84 @@
 
 <body>
     <main>
-        <table border="1" summary="Каталог товарів" height="800" width="1900">
+        <table id="table" summary="Каталог товарів">
             <caption>Каталог товарів</caption>
             <thead>
-                <tr scope="col">
-                    <th>Назва товару</th>
-                    <th>категорія</th>
-                    <th>Ціна (грн)</th>
-                    <th>Наявність</th>
-                    <th>Опис / Особливість</th>
-                    <th>Фото товару</th>
+                <tr>
+                    <th scope="col">Назва товару</th>
+                    <th scope="col">Категорія</th>
+                    <th scope="col">Ціна (грн)</th>
+                    <th scope="col">Наявність</th>
+                    <th scope="col">Опис / Особливість</th>
+                    <th scope="col">Фото товару</th>
                 </tr>
             </thead>
+
             <tbody>
-                <tr scope="row">
-                    <td>Смартфон Galaxy A15</td>
+                <tr>
+                    <th scope="row">Смартфон Galaxy A15</th>
                     <td>Електроніка</td>
                     <td>8 999</td>
                     <td>Є в наявності</td>
                     <td>6,6" дисплей, 128 ГБ пам’яті</td>
-                    <td>
-                        <figure>
-                            <img src="img/phone.jpg" alt="Смартфон Galaxy A15">
-                            <figcaption>Смартфон Galaxy A15</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/phone.jpg" alt="Смартфон Galaxy A15"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Навушники AirSound</td>
+                <tr>
+                    <th scope="row">Навушники AirSound</th>
                     <td>Аксесуари</td>
                     <td>1 499</td>
                     <td>Є в наявності</td>
                     <td>Бездротові, шумопоглинання</td>
-                    <td>
-                        <figure>
-                            <img src="img/fefefef.jpg" alt="Навушники">
-                            <figcaption>Навушники AirSound</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/fefefef.jpg" alt="Навушники AirSound"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Ноутбук UltraBook X</td>
+                <tr>
+                    <th scope="row">Ноутбук UltraBook X</th>
                     <td>Електроніка</td>
                     <td>24 500</td>
                     <td>Під замовлення</td>
                     <td>15,6" екран, SSD 512 ГБ</td>
-                    <td>
-                        <figure>
-                            <img src="img/laptop.jpg" alt="ноутбук">
-                            <figcaption>Ноутбук UltraBook X</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/laptop.jpg" alt="Ноутбук UltraBook X"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Рюкзак CityPro</td>
+                <tr>
+                    <th scope="row">Рюкзак CityPro</th>
                     <td>Одяг / Сумки</td>
                     <td>899</td>
                     <td>Є в наявності</td>
                     <td>Водонепроникний, 25 л</td>
-                    <td>
-                        <figure>
-                            <img src="img/city.jpg" alt="Рюкзак">
-                            <figcaption>Рюкзак CityPro</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/city.jpg" alt="Рюкзак CityPro"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Кросівки RunMax</td>
+                <tr>
+                    <th scope="row">Кросівки RunMax</th>
                     <td>Взуття</td>
                     <td>2 299</td>
                     <td>Розпродано</td>
                     <td>Легкі, для бігу</td>
-                    <td>
-                        <figure>
-                            <img src="img/kros.jpg" alt="Чорні кросівки RunMax, розмір 42">
-                            <figcaption>Кросівки RunMax</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/kros.jpg" alt="Кросівки RunMax, розмір 42"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Холодильник CoolTech 300</td>
+                <tr>
+                    <th scope="row">Холодильник CoolTech 300</th>
                     <td>Побутова техніка</td>
                     <td>12 800</td>
                     <td>Є в наявності</td>
                     <td>Двокамерний, енергоощадний</td>
-                    <td>
-                        <figure>
-                            <img src="img/kool.jpg" alt="Холодильник CoolTech">
-                            <figcaption>Холодильник CoolTech</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/kool.jpg" alt="Холодильник CoolTech"></td>
                 </tr>
-                <tr scope="row">
-                    <td>Чайник електричний QuickBoil</td>
+                <tr>
+                    <th scope="row">Чайник електричний QuickBoil</th>
                     <td>Побутова техніка</td>
                     <td>850</td>
                     <td>Є в наявності</td>
                     <td>1,7 л, автоматичне вимкнення</td>
-                    <td>
-                        <figure>
-                            <img src="img/chay.jpg" alt="Чайник електричний">
-                            <figcaption>Чайник електричний</figcaption>
-                        </figure>
-                    </td>
+                    <td><img src="img/chay.jpg" alt="Чайник електричний"></td>
                 </tr>
-
             </tbody>
 
         </table>
+        <p>Усі ціни вказані в гривнях. Натисніть кнопку, щоб оформити замовлення обраного товару.</p>
+        <a href="about.html"> <button type="button">Замовити товар</button></a>
+
+
+
     </main>
 </body>
 
