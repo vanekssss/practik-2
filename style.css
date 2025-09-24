@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td figure {
+    margin: 0;
+}
+
+td img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+    border-radius: 8px;
+}
