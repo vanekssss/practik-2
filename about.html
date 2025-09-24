@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2rem;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 0.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 0.75rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+
+
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Оформлення замовлення</h1>
+        <form action="/submit" method="POST">
+            <div>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="user_name" required>
+            </div>
+            <div>
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="user_email" required>
+            </div>
+            <div>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="user_password" required>
+            </div>
+            <div>
+                <label for="tovar">Товари:</label>
+                <select id="tovar" name="user_tovar">
+                    <option value="Смартфон Galaxy A15">Смартфон Galaxy A15</option>
+                    <option value="Навушники AirSound">Навушники AirSound</option>
+                    <option value="Ноутбук UltraBook X">Ноутбук UltraBook X</option>
+                    <option value="Рюкзак CityPro">Рюкзак CityPro</option>
+                    <option value="Кросівки RunMax">Кросівки RunMax</option>
+                    <option value="Холодильник CoolTech 300">Холодильник CoolTech 300</option>
+                    <option value="Чайник електричний QuickBoil">Чайник електричний QuickBoil</option>
+                </select>
+            </div>
+            <div>
+                <label for="address">Адрес доставки:</label>
+
+                <input type="text" name="address" required>
+            </div>
+
+            <input type="submit" value="Оформити замовлення">
+
+        </form>
+    </main>
+</body>
+
+</html>
